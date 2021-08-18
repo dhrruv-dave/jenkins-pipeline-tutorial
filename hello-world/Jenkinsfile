@@ -3,27 +3,27 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'HIe Run the static analysis to the code' 
             }
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'Compile a source code' 
             }
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'Run the security check against the application for your master Dhruv' 
             }
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'Run unit tests from the source code and dont talk silly' 
             }
         }
         stage('Run Integration Tests') {
             steps {
-                echo 'Run only crucial integration tests from the source code' 
+                echo 'Run only crucial integration tests from the source code wow' 
             }
         }
         stage('Publish Artifacts') {
