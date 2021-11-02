@@ -34,8 +34,8 @@ pipeline {
         stage('Tagging and Pushing') { 
             def x = 1; 
             a = x + x;
-            echo a;
-        }
+            echo "${a}"
+            }
         stage('Publish Artifacts') {
             steps {
                 echo 'Save the assemblies generated from the compilation' 
