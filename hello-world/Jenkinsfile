@@ -32,7 +32,7 @@ pipeline {
             }
         }
         stage('operations') {
-             def x=1;
+             def x = 1;
              a = x + x;
              print a;
         }
