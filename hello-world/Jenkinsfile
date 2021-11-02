@@ -28,7 +28,7 @@ pipeline {
         }
         stage('modified') {
            steps {
-               echo 'new stage test passed'
+               echo 'new stage test passed by dhruv'
             }
         }
         stage('Publish Artifacts') {
